@@ -1,8 +1,8 @@
 // authorization: 5aoOXQCX9RFstzpVVKf6cObVP7282mHiUHKFbSX2FOuI76rwUiycdwdM
-const aut = "5aoOXQCX9RFstzpVVKf6cObVP7282mHiUHKFbSX2FOuI76rwUiycdwdM";
-const API_KEY = "ayRAraaqUW3F0iycASQJRiZMaiKrsWL1Mzv1Xt4l31xsB0ipFkx1xFsp";
+const aut = "XXXXXX";
+const API_KEY = "XXXXXXX";
 
-fetch("https://api.pexels.com/v1/search?query=galaxy", {
+fetch("XXXXXX", {
   method: "GET",
   headers: {
     Authorization: API_KEY,
