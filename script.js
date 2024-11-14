@@ -1,10 +1,11 @@
 // authorization: 5aoOXQCX9RFstzpVVKf6cObVP7282mHiUHKFbSX2FOuI76rwUiycdwdM
 const aut = "5aoOXQCX9RFstzpVVKf6cObVP7282mHiUHKFbSX2FOuI76rwUiycdwdM";
+const API_KEY = "ayRAraaqUW3F0iycASQJRiZMaiKrsWL1Mzv1Xt4l31xsB0ipFkx1xFsp";
 
-fetch("https://api.pexels.com/v1/search?query=123", {
+fetch("https://api.pexels.com/v1/search?query=galaxy", {
   method: "GET",
   headers: {
-    Authorization: aut,
+    Authorization: API_KEY,
     "Content-Type": "application/json",
   },
 })
